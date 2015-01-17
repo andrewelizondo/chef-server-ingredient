@@ -5,7 +5,7 @@ class Chef
 
       actions :install, :uninstall, :remove, :reconfigure
       default_action :install
-      state_attrs :installed
+#      state_attrs :installed
 
       attribute :package_name, :kind_of => String, :name_attribute => true
       # Attributes for reconfigure step
